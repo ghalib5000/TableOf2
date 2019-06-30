@@ -1,2 +1,4 @@
 language: python
+services:
+  - docker
 script: python Table.py
