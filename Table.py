@@ -1,14 +1,18 @@
 import sys
 try:
-    n =  sys.argv[1]
+    a =  sys.argv[1]
+except:
+    a = 2
+try:
+    n =  sys.argv[2]
 except:
     n = 10
 
-def table(n):
-    const = int(2)
+def table(a,n):
+    
     i=1
-    print("##### Table Of 2 #####")
+    print("##### Table Of ",a," #####")
     while i<=int(n):
-        print(const," X ",i," = ",const*i)
+        print(a," X ",i," = ",int(a)*i)
         i+=1 
-table(n)
+table(a,n)
