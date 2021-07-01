@@ -1,8 +1,10 @@
 import sys
-if((sys.argv[1])):
-    n = sys.argv[1]
+try:
+    n =  sys.argv[1]
+except:
+    n = 10
 
-def table(n=10):
+def table(n):
     const = int(2)
     i=1
     print("##### Table Of 2 #####")
