@@ -1,5 +1,6 @@
 import sys
-n = sys.argv[1]
+if((sys.argv[1])):
+    n = sys.argv[1]
 
 def table(n=10):
     const = int(2)
